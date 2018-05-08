@@ -14,4 +14,100 @@
         android:scaleType="fitXY"
         android:src="@drawable/express"/>
 
+    <EditText
+        android:id="@+id/pilihan4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pilihan3"
+        android:layout_below="@+id/pilihan3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/pilihan3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pilihan2"
+        android:layout_below="@+id/pilihan2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/pilihan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pilihan1"
+        android:layout_below="@+id/pilihan1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/pilihan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="137dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginStart="114dp"
+        android:background="@android:color/background_light"
+        android:text="0                                    " />
+
+    <Button
+        android:id="@+id/buttonberanda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:text="beranda" />
+
+    <Button
+        android:id="@+id/buttonriwayat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/buttonberanda"
+        android:text="riwayat" />
+
+    <Button
+        android:id="@+id/buttontentang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/pilihan4"
+        android:layout_alignParentBottom="true"
+        android:text="about" />
+
+    <Button
+        android:id="@+id/buttonprofil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/buttontentang"
+        android:text="profil" />
+
+    <ImageButton
+        android:id="@+id/nextexpress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttontentang"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginEnd="11dp"
+        android:background="@android:color/background_dark"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
 </RelativeLayout>

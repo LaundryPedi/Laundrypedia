@@ -14,4 +14,41 @@
         android:scaleType="fitXY"
         android:src="@drawable/tentang"/>
 
+    <Button
+        android:id="@+id/buttontentang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonberanda"
+        android:layout_alignBottom="@+id/buttonberanda"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="22dp"
+        android:text="about" />
+
+    <Button
+        android:id="@+id/buttonprofil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttontentang"
+        android:layout_alignBottom="@+id/buttontentang"
+        android:layout_toStartOf="@+id/buttontentang"
+        android:text="profil" />
+
+    <Button
+        android:id="@+id/buttonriwayat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonberanda"
+        android:layout_alignBottom="@+id/buttonberanda"
+        android:layout_toEndOf="@+id/buttonberanda"
+        android:text="riwayat" />
+
+    <Button
+        android:id="@+id/buttonberanda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:text="beranda" />
+
 </RelativeLayout>

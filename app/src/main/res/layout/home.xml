@@ -15,17 +15,17 @@
         android:src="@drawable/reguler" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/pilihexp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/checkBox3"
-        android:layout_alignBottom="@+id/checkBox3"
+        android:layout_alignBaseline="@+id/pilihreg"
+        android:layout_alignBottom="@+id/pilihreg"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="40dp"
         android:text="Express" />
 
     <CheckBox
-        android:id="@+id/checkBox3"
+        android:id="@+id/pilihreg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -35,79 +35,116 @@
         android:text="Reguler" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/pilih2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/checkBox2"
+        android:layout_alignStart="@+id/pilih1"
+        android:layout_below="@+id/pilih1"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/pilih4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pilih3"
+        android:layout_below="@+id/pilih3"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/pilih1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/pilihexp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/pilih5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pilih4"
+        android:layout_below="@+id/pilih4"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/pilih3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pilih2"
+        android:layout_below="@+id/pilih2"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/pilih6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pilih5"
+        android:layout_below="@+id/pilih5"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="52dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="66dp"
+        android:layout_toEndOf="@+id/pilihreg"
         android:background="@android:color/background_light"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="0" />
+        android:text="0                                        " />
 
-    <EditText
-        android:id="@+id/editText2"
+    <Button
+        android:id="@+id/buttonriwayat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/editText4"
-        android:ems="10"
-        android:inputType="number"
-        android:text="0" />
+        android:layout_alignTop="@+id/buttonberanda"
+        android:layout_toEndOf="@+id/buttonberanda"
+        android:text="riwayat" />
 
-    <EditText
-        android:id="@+id/editText3"
+    <Button
+        android:id="@+id/buttonprofil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/editText6"
-        android:ems="10"
-        android:inputType="number"
-        android:text="0" />
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/buttonriwayat"
+        android:text="profil" />
 
-    <EditText
-        android:id="@+id/editText4"
+    <Button
+        android:id="@+id/buttontentang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/checkBox2"
-        android:layout_marginStart="118dp"
-        android:layout_marginTop="56dp"
-        android:layout_toEndOf="@+id/checkBox3"
-        android:ems="10"
-        android:inputType="number"
-        android:text="0" />
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/buttonprofil"
+        android:text="About" />
 
-    <EditText
-        android:id="@+id/editText5"
+    <Button
+        android:id="@+id/buttonberanda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/editText7"
-        android:layout_alignParentEnd="true"
-        android:ems="10"
-        android:inputType="number"
-        android:text="0" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Beranda" />
 
-    <EditText
-        android:id="@+id/editText6"
+    <ImageButton
+        android:id="@+id/nextreg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/editText2"
-        android:ems="10"
-        android:inputType="number"
-        android:text="0" />
-
-    <EditText
-        android:id="@+id/editText7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/editText"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="28dp"
-        android:ems="10"
-        android:inputType="number"
-        android:text="0" />
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignEnd="@+id/pilih6"
+        android:background="@android:color/background_dark"
+        app:srcCompat="@android:drawable/ic_media_play" />
 
 </RelativeLayout>

@@ -15,7 +15,7 @@
         android:src="@drawable/register" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/name"
@@ -28,11 +28,11 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/nohp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/password"
-        android:layout_below="@+id/password"
+        android:layout_alignStart="@+id/email"
+        android:layout_below="@+id/email"
         android:layout_marginTop="21dp"
         android:background="?android:attr/colorBackground"
         android:backgroundTint="@android:color/background_light"
@@ -44,8 +44,8 @@
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/phone"
-        android:layout_alignStart="@+id/password"
+        android:layout_above="@+id/password"
+        android:layout_alignStart="@+id/email"
         android:layout_marginBottom="21dp"
         android:background="?android:attr/colorBackground"
         android:backgroundTint="@android:color/background_light"
@@ -54,7 +54,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/phone"
+        android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/name"
@@ -72,6 +72,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="43dp"
+        android:background="@android:color/holo_red_dark"
         android:text="Sign up" />
 
 </RelativeLayout>

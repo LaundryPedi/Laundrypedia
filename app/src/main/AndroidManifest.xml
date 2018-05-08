@@ -23,6 +23,13 @@
                 <category android:name="android.intent.category.HOME" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainExpress">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </activity>
         <activity android:name=".MainRegister">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,12 +37,33 @@
                 <category android:name="android.intent.category.APP_EMAIL" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainAntarJemput">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.INFO" />
+            </intent-filter>
+        </activity>
         <activity android:name=".MainAbout">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.INFO" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainProfil">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.INFO" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainRiwayat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
             </intent-filter>
         </activity>
     </application>
