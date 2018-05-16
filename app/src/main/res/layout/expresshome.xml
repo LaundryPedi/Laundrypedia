@@ -12,7 +12,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:scaleType="fitXY"
-        android:src="@drawable/express"/>
+        android:src="@drawable/express" />
 
     <EditText
         android:id="@+id/pilihan4"
@@ -22,17 +22,19 @@
         android:layout_below="@+id/pilihan3"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="0" />
+        android:text="0"
+        android:textAlignment="center" />
 
     <EditText
         android:id="@+id/pilihan3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/pilihan2"
-        android:layout_below="@+id/pilihan2"
+        android:layout_centerVertical="true"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="0" />
+        android:text="0"
+        android:textAlignment="center" />
 
     <EditText
         android:id="@+id/pilihan2"
@@ -42,7 +44,8 @@
         android:layout_below="@+id/pilihan1"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="0" />
+        android:text="0"
+        android:textAlignment="center" />
 
     <EditText
         android:id="@+id/pilihan1"
@@ -51,19 +54,19 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:layout_marginEnd="14dp"
-        android:layout_marginTop="137dp"
+        android:layout_marginTop="152dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="0" />
+        android:text="0"
+        android:textAlignment="center" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="70dp"
-        android:layout_marginStart="114dp"
+        android:layout_above="@+id/buttonriwayat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
         android:background="@android:color/background_light"
         android:text="0                                    " />
 

@@ -42,7 +42,8 @@
         android:layout_below="@+id/pilih1"
         android:ems="10"
         android:inputType="number"
-        android:text="0" />
+        android:text="0"
+        android:textAlignment="center" />
 
     <EditText
         android:id="@+id/pilih4"
@@ -50,9 +51,11 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/pilih3"
         android:layout_below="@+id/pilih3"
+        android:layout_marginTop="11dp"
         android:ems="10"
         android:inputType="number"
-        android:text="0" />
+        android:text="0"
+        android:textAlignment="center" />
 
     <EditText
         android:id="@+id/pilih1"
@@ -60,11 +63,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/pilihexp"
-        android:layout_marginEnd="14dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="76dp"
         android:ems="10"
         android:inputType="number"
-        android:text="0" />
+        android:text="0"
+        android:textAlignment="center" />
 
     <EditText
         android:id="@+id/pilih5"
@@ -74,7 +78,8 @@
         android:layout_below="@+id/pilih4"
         android:ems="10"
         android:inputType="number"
-        android:text="0" />
+        android:text="0"
+        android:textAlignment="center" />
 
     <EditText
         android:id="@+id/pilih3"
@@ -84,7 +89,8 @@
         android:layout_below="@+id/pilih2"
         android:ems="10"
         android:inputType="number"
-        android:text="0" />
+        android:text="0"
+        android:textAlignment="center" />
 
     <EditText
         android:id="@+id/pilih6"
@@ -94,15 +100,16 @@
         android:layout_below="@+id/pilih5"
         android:ems="10"
         android:inputType="number"
-        android:text="0" />
+        android:text="0"
+        android:textAlignment="center" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="66dp"
-        android:layout_toEndOf="@+id/pilihreg"
+        android:layout_above="@+id/buttonriwayat"
+        android:layout_marginBottom="30dp"
+        android:layout_toStartOf="@+id/pilihexp"
         android:background="@android:color/background_light"
         android:text="0                                        " />
 
@@ -110,8 +117,8 @@
         android:id="@+id/buttonriwayat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/buttonberanda"
-        android:layout_toEndOf="@+id/buttonberanda"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/buttonprofil"
         android:text="riwayat" />
 
     <Button
@@ -119,15 +126,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/buttonriwayat"
+        android:layout_toStartOf="@+id/buttontentang"
         android:text="profil" />
 
     <Button
         android:id="@+id/buttontentang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/nextreg"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/buttonprofil"
         android:text="About" />
 
     <Button
@@ -135,7 +142,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/buttonriwayat"
         android:text="Beranda" />
 
     <ImageButton

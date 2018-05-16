@@ -6,6 +6,9 @@
     android:layout_height="match_parent"
     tools:context="com.example.nurasima.laundrypedia.MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -54,10 +57,9 @@
         android:id="@+id/signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/pass"
-        android:layout_below="@+id/masuk"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="76dp"
+        android:layout_toStartOf="@+id/masuk"
         android:text="Registrasi"
         android:textColor="@android:color/background_light" />
 

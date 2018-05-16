@@ -9,11 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainLogin2">
+        <activity android:name=".MainHalamanUtama">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainLogin2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
             </intent-filter>
         </activity>
         <activity android:name=".MainHome">
@@ -58,7 +65,6 @@
                 <category android:name="android.intent.category.INFO" />
             </intent-filter>
         </activity>
-
         <activity android:name=".MainRiwayat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -66,6 +72,7 @@
                 <category android:name="android.intent.category.HOME" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainDateTimePicker"></activity>
     </application>
 
 </manifest>

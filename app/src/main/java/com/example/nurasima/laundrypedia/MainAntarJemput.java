@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -16,7 +17,11 @@ import butterknife.OnClick;
  */
 
 public class MainAntarJemput extends AppCompatActivity {
-    @BindView(R.id.konfirm)Button konfirm;
+    @BindView(R.id.konfirm)RadioButton konfirm;
+    @BindView(R.id.tgl_jemput)Button tgl_jemput;
+    @BindView(R.id.tgl_antar)Button tgl_antar;
+    @BindView(R.id.jam_jemput)Button jam_jemput;
+    @BindView(R.id.jam_antar)Button jam_antar;
     @BindView(R.id.buttonberanda)Button buttonberanda;
     @BindView(R.id.buttonriwayat)Button buttonriwayat;
     @BindView(R.id.buttonprofil)Button buttonprofil;
@@ -30,6 +35,26 @@ public class MainAntarJemput extends AppCompatActivity {
     }
     @OnClick(R.id.konfirm)
     public void setKonfirm (View view){
+        Intent intent = new Intent(MainAntarJemput.this,MainHome.class);
+        startActivity(intent);
+    }
+    @OnClick(R.id.tgl_jemput)
+    public void setTgl_jemput(View view){
+        Intent intent = new Intent(MainAntarJemput.this,MainHome.class);
+        startActivity(intent);
+    }
+    @OnClick(R.id.tgl_antar)
+    public void setTgl_jemput2(View view){
+        Intent intent = new Intent(MainAntarJemput.this,MainHome.class);
+        startActivity(intent);
+    }
+    @OnClick(R.id.jam_jemput)
+    public void setJam_jemput(View view){
+        Intent intent = new Intent(MainAntarJemput.this,MainHome.class);
+        startActivity(intent);
+    }
+    @OnClick(R.id.jam_antar)
+    public void setJam_jemput2(View view){
         Intent intent = new Intent(MainAntarJemput.this,MainHome.class);
         startActivity(intent);
     }
