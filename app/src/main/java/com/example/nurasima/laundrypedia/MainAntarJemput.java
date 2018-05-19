@@ -5,37 +5,42 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.RadioButton;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import android.widget.DatePicker;
+import android.widget.TextView;
+import android.app.DatePickerDialog;
 
+import java.util.Calendar;
+import java.util.Locale;
+import java.text.SimpleDateFormat;
 /**
  * Created by Nurasima on 08/05/2018.
  */
 
 public class MainAntarJemput extends AppCompatActivity {
+
     @BindView(R.id.konfirm)RadioButton konfirm;
-    @BindView(R.id.tgl_jemput)Button tgl_jemput;
-    @BindView(R.id.tgl_antar)Button tgl_antar;
-    @BindView(R.id.jam_jemput)Button jam_jemput;
-    @BindView(R.id.jam_antar)Button jam_antar;
     @BindView(R.id.buttonberanda)Button buttonberanda;
     @BindView(R.id.buttonriwayat)Button buttonriwayat;
     @BindView(R.id.buttonprofil)Button buttonprofil;
     @BindView(R.id.buttontentang)Button buttontentang;
 
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.antarjemput);
         ButterKnife.bind(this);
+
+
     }
     @OnClick(R.id.konfirm)
     public void setKonfirm (View view){
-        Intent intent = new Intent(MainAntarJemput.this,MainHome.class);
+        Intent intent = new Intent(MainAntarJemput.this,MainKonfirm.class);
         startActivity(intent);
     }
     @OnClick(R.id.tgl_jemput)

@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -33,5 +32,18 @@ public class MainHalamanUtama extends AppCompatActivity {
             Intent intent = new Intent(MainHalamanUtama.this, MainLogin2.class);
             startActivity(intent);
         }
+
+    /**
+     * Created by Nurasima on 18/05/2018.
+     */
+
+    public static class MainKonfirmasi extends AppCompatActivity {
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.konfirmasi);
+            ButterKnife.bind(this);
+        }
+    }
 }
 
